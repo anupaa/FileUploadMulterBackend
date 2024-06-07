@@ -4,7 +4,7 @@ import { v2 as cloudinary } from "cloudinary";
 import fs from "node:fs";
 
 const router = Router();
-
+// I know i'm an idiot i kept credentials/keys inside code itself
 cloudinary.config({
   cloud_name: "droes6aks",
   api_key: "918757128462197",
